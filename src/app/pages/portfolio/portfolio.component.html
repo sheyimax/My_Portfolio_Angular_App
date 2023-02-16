@@ -1,0 +1,19 @@
+<div class="project">
+  <h2 class="project-text text-center">My Projects</h2>
+  <div class="row">
+    <div class="col-lg-4" *ngFor="let pd of projectData">
+      <div class="projectbox">
+        <img src="{{pd.projectImg}}">
+        <h1>{{pd.projectName}}</h1>
+        <p>{{pd.projectYear}}</p>
+        <p>{{pd.projectDetails}}</p>
+        <br>
+        <a class="readMoreBtn" [routerLink]="['/portfolio',pd.id]">Read more &nbsp;</a>
+
+      </div>
+
+    </div>
+
+
+  </div>
+</div>

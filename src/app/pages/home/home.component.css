@@ -1,0 +1,143 @@
+.banner{
+  background-image: url(../../../assets/images/background2.png);
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner h1{
+  color: #fff;
+  font-size: 75px;
+  font-weight: bold;
+  top: 45%;
+  left: 10%;
+  position: absolute;
+}
+
+.banner h3{
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  top: 60%;
+  left: 10%;
+  position: absolute;
+}
+
+.banner h4{
+  color: rgba(221, 211, 221, 0.8);
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  top: 40%;
+  left: 10%;
+  position: absolute;
+}
+
+.banner span{
+  color: #ff004f;
+}
+
+.banner a{
+  text-decoration: none;
+  background-color: #ff004f;
+  color: #fff;
+  padding: 15px 30px;
+  top: 70%;
+  left: 10%;
+  position: absolute;
+  border-radius: 8px;
+  transition: background 0.5s;
+}
+
+.banner a:hover{
+  background-color: #ffff;
+  color: #ff004f;
+}
+
+/*about me starts here*/
+.about-me{
+  background-color: #000;
+  padding: 120px 60px 120px;
+}
+
+.about-me img{
+  height: auto;
+  width: 430px;
+  border-radius: 24px;
+}
+
+.about-me h2{
+  color: rgb(255, 255, 255);
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-me h5{
+ color: rgb(255, 255, 255);
+ letter-spacing: 2px;
+ font-size: 22px;
+ margin-bottom: 25px;
+ text-transform: capitalize;
+}
+
+.about-me p{
+ color: rgba(221, 211, 221, 0.8);
+ letter-spacing: 1px;
+ line-height: 28px;
+ font-size: 18px;
+ margin-bottom: 44px;
+}
+
+.projectbox{
+  padding: 10px 5px;
+}
+
+/*project starts here*/
+.project{
+  background-color: #000;
+  padding: 40px 120px;
+}
+
+.projectbox img{
+  height: 380px;
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.projectbox h1{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.project h2{
+  color: rgb(255, 255, 255);
+  font-size: 75px;
+}
+
+.project h1{
+  color: #fff;
+  font-size: 24px;
+}
+
+.project p{
+  color: rgba(221, 211, 221, 0.8);
+  font-size: 18px;
+}
+
+.viewmorebtn{
+  text-decoration: none;
+  background-color: #ff004f;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: background 0.5s;
+}
+
+a:hover{
+  background-color: #ffff;
+  color: #ff004f;
+}

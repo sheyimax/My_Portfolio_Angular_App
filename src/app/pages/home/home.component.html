@@ -1,0 +1,36 @@
+<div class="banner">
+    <h4>Hello, my name is</h4>
+    <h1>Adeshina <span>Michael</span></h1>
+    <h3>I'm a Product Designer and Web Developer.</h3>
+    <a routerLink="about">Learn more</a>
+</div>
+
+<div class="about-me">
+  <div class="row">
+    <div class="col-lg-6">
+      <img src="../../../assets/images/about-me-2.png.png">
+    </div>
+    <div class="col-lg-6">
+      <h2>About Me</h2>
+      <h5>UX/UI Designer & <span>Developer</span></h5>
+      <p>
+        Creative UX/UI designer and developer skilled in user research, UI prototyping and adobe suite. Final year student of electrical & electronic engineering seeking to build experience and deliver web excellence at XYZ corp. Have completed several projects including design of a Music streaming mobile app & player, project management software website and authentication library responsive web for both mobile and desktop. Over 50+ low-fidelity & high-fidelity screen and developing a landing page, registration and survey form using HTML5 and CSS.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!------portfolio projects starts here-->
+<div class="project">
+  <h2 class="project-text text-center">My Projects</h2>
+  <div class="row">
+    <div class="col-lg-3" *ngFor="let pd of projectData;index as i">
+      <div class="projectbox mt-3" *ngIf="i<=3">
+        <img src="{{pd.projectImg}}">
+        <h1>{{pd.projectName}}</h1>
+        <p>{{pd.projectYear}}</p>
+      </div>
+    </div>
+  </div>
+  <a routerLink="portfolio" class="viewmorebtn">view more</a>
+</div>
