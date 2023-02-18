@@ -8,7 +8,7 @@ import { ProjectpageComponent } from './pages/projectpage/projectpage.component'
 import { ServicesComponent } from './pages/services/services.component';
 
 const routes: Routes = [
-  {path: '/',component:HomeComponent},
+  {path: '',component:HomeComponent},
   {path: 'about',component:AboutComponent},
   {path: 'portfolio',component:PortfolioComponent},
   {path: 'portfolio/:id', component:ProjectpageComponent},
